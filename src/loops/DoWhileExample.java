@@ -1,5 +1,7 @@
 package loops;
 
+import java.util.Scanner;
+
 public class DoWhileExample {
 
     public static void main(String[] args) {
@@ -20,7 +22,6 @@ public class DoWhileExample {
             System.out.println("Hello");
             i++;
         }while(i < 10);
-
 
     }
 
