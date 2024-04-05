@@ -4,8 +4,8 @@ public class ArrayInitializationExample {
 
     public static void main(String[] args) {
 
-        int [] arr = new int[5];
-
+        int [] arr = new int[5]; // declaring an array of size 5 []
+                      //1  2   3    4   5
         int [] arr1 = {10, 20, 33, 40, 55};
 
         arr[0] = 1;
