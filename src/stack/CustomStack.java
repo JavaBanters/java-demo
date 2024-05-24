@@ -45,5 +45,23 @@ public class CustomStack {
         }
     }
 
+    public boolean pop() {
+        if(isEmpty()){
+            System.out.println("The stack is empty from pop");
+            return false;
+        } else {
+            ptr--;
+            return true;
+        }
+    }
+
+    public int peek() {
+        if(isEmpty()) {
+            System.out.println("The stack is empty from peek");
+            return -16465785;
+        }
+       return this.stack[ptr];
+    }
+
 
 }
